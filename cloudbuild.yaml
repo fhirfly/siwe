@@ -6,5 +6,5 @@ steps:
 # Run custom commands
 - name: node
   entrypoint: npm
-  args: ['run', 'build']
+  args: ['build']
 # [END cloudbuild_npm_node]
